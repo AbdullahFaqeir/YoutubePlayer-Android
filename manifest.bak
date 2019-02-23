@@ -2,17 +2,18 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.0
-apiversion: 4
-architectures: arm64-v8a armeabi-v7a x86
+version: 0.2
+apiversion: 2
+architectures: x86 arm64-v8a
 description: Android module that plays videos from YouTube
 author: Karthi Ponnusamy
 license: Specify your license
 copyright: Copyright (c) 2013 by TitaniumTutorial
+
 
 # these should not be edited
 name: youtubeplayer
 moduleid: titutorial.youtubeplayer
 guid: fe4633ad-a640-4881-b95e-06673ce33b64
 platform: android
-minsdk: 7.5.0
+minsdk: 7.0.0.GA

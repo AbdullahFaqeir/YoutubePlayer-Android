@@ -12,7 +12,7 @@ import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.KrollProxy;
 import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.titanium.TiC;
-import org.appcelerator.titanium.util.Log;
+//import org.appcelerator.titanium.util.Log;
 import org.appcelerator.titanium.util.TiConvert;
 import org.appcelerator.titanium.proxy.TiViewProxy;
 import org.appcelerator.titanium.view.TiCompositeLayout;
@@ -75,7 +75,7 @@ public class ExampleProxy extends TiViewProxy
 		super.handleCreationDict(options);
 		
 		if (options.containsKey("message")) {
-			Log.d(TAG, "example created with message: " + options.get("message"));
+			//Log.d(TAG, "example created with message: " + options.get("message"));
 		}
 	}
 	
@@ -83,7 +83,7 @@ public class ExampleProxy extends TiViewProxy
 	@Kroll.method
 	public void printMessage(String message)
 	{
-		Log.d(TAG, "printing message: " + message);
+		//Log.d(TAG, "printing message: " + message);
 	}
 
 
@@ -96,6 +96,6 @@ public class ExampleProxy extends TiViewProxy
 	@Kroll.setProperty @Kroll.method
 	public void setMessage(String message)
 	{
-	    Log.d(TAG, "Tried setting module message to: " + message);
+	    //Log.d(TAG, "Tried setting module message to: " + message);
 	}
 }
